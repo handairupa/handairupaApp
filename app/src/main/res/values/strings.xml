@@ -11,4 +11,21 @@
     <string name="menu_home">Home</string>
     <string name="menu_gallery">Gallery</string>
     <string name="menu_slideshow">Slideshow</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="capture_button_alt">Capture Button</string>
+    <string name="capture_prompt">Find out your facial skin\'s current condition.</string>
+    <string name="capture_now">Capture now!</string>
+    <string name="hello_text">"Hello."</string>
+    <string name="denied_permission">Handairupa belum mendapatkan izin akses kamera.</string>
+    <string name="product_name">Product Name</string>
+    <string name="product_description">Product Description</string>
+    <string name="failed_camera">Showing camera failed</string>
+    <string name="failed_capture_image">Capture image failed.</string>
+    <string name="img_result">Result image</string>
+    <string name="skin_condition">Skin Condition Name</string>
+    <string name="skin_condition_desc">Description of Skin Condition</string>
+    <string name="switch_camera">Switch Camera</string>
+    <string name="menu_result">Result</string>
+    <string name="failed_take_image">Gagal mengambil gambar.</string>
 </resources>
