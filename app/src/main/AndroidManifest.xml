@@ -28,7 +28,7 @@
             android:label="@string/title_activity_home"
             android:theme="@style/Theme.HandairupaApp.NoActionBar" />
         <activity
-            android:name=".account.LoginActivity"
+            android:name=".ui.account.LoginActivity"
             android:exported="false"
             android:theme="@style/Theme.AppCompat.NoActionBar" />
         <activity

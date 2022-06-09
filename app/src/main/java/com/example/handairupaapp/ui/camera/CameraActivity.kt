@@ -15,17 +15,9 @@ import androidx.camera.lifecycle.ProcessCameraProvider
 import androidx.core.content.ContextCompat
 import com.example.handairupaapp.R
 import com.example.handairupaapp.databinding.ActivityCameraBinding
+import com.example.handairupaapp.ui.home.HomeActivity
 import com.example.handairupaapp.ui.result.ResultActivity
 import com.example.handairupaapp.utils.createFile
-import com.example.handairupaapp.utils.reduceFileImage
-import okhttp3.MediaType.Companion.toMediaType
-import okhttp3.MediaType.Companion.toMediaTypeOrNull
-import okhttp3.MultipartBody
-import okhttp3.RequestBody.Companion.asRequestBody
-import okhttp3.RequestBody.Companion.toRequestBody
-import retrofit2.Call
-import retrofit2.Callback
-import retrofit2.Response
 import java.io.File
 import java.util.concurrent.ExecutorService
 import java.util.concurrent.Executors
@@ -91,6 +83,7 @@ class CameraActivity : AppCompatActivity(){
                         cameraSelector == CameraSelector.DEFAULT_BACK_CAMERA
                     )
                     setResult(ResultActivity.CAMERA_X_RESULT, intent)
+                    startActivity(Intent(this@CameraActivity,ResultActivity::class.java))
                     finish()
                 }
 

@@ -1,4 +1,4 @@
-package com.example.handairupaapp.account
+package com.example.handairupaapp.ui.account
 
 import android.content.Intent
 import android.os.Bundle

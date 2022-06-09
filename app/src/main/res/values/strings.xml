@@ -28,4 +28,6 @@
     <string name="switch_camera">Switch Camera</string>
     <string name="menu_result">Result</string>
     <string name="failed_take_image">Gagal mengambil gambar.</string>
+    <string name="menu_journal">Skin Journal</string>
+    <string name="camera">Camera</string>
 </resources>
