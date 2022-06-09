@@ -36,8 +36,8 @@
                     android:layout_height="0dp"
                     android:layout_weight="1"
                     android:visibility="gone"
-                    app:icon="@{@drawable/ic_empty_memes}"
-                    app:message="@{@string/empty_memes}" />
+                    app:icon="@{@drawable/ic_empty_journal}"
+                    app:message="@{@string/empty_journal}" />
 
             </LinearLayout>
 
