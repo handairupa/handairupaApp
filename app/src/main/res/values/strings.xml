@@ -30,4 +30,6 @@
     <string name="failed_take_image">Gagal mengambil gambar.</string>
     <string name="menu_journal">Skin Journal</string>
     <string name="camera">Camera</string>
+    <string name="no_content">No Content</string>
+    <string name="empty_journal">You haven\'t scan your skin yet.</string>
 </resources>
