@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "761637158615",
+    "project_id": "handairupaapp",
+    "storage_bucket": "handairupaapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:761637158615:android:fa4fd221cd6178056dba92",
+        "android_client_info": {
+          "package_name": "com.example.handairupaapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "761637158615-6kc4ivk64tuepd8tu56aep5nsf7qvqe2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.handairupaapp",
+            "certificate_hash": "15524777200666d952fec9fc07a4d978e716439c"
+          }
+        },
+        {
+          "client_id": "761637158615-7sj6koc441i2a5rvs1vbf2tdr86dq1c4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC7_tHUbM8t6HWkGUovWAperPamGVPMP1M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "761637158615-7sj6koc441i2a5rvs1vbf2tdr86dq1c4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
