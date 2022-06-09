@@ -7,6 +7,7 @@ import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import com.example.handairupaapp.MainActivity
 import com.example.handairupaapp.databinding.ActivityLoginBinding
+import com.example.handairupaapp.ui.home.HomeActivity
 import com.google.android.gms.auth.api.signin.GoogleSignIn
 import com.google.android.gms.auth.api.signin.GoogleSignInAccount
 import com.google.android.gms.auth.api.signin.GoogleSignInClient
@@ -87,7 +88,7 @@ class LoginActivity : AppCompatActivity() {
 
                 }
 
-                startActivity(Intent(this,MainActivity::class.java))
+                startActivity(Intent(this,HomeActivity::class.java))
                 finish()
             }
             .addOnFailureListener { e->
@@ -100,7 +101,7 @@ class LoginActivity : AppCompatActivity() {
     private fun checkUser() {
         val firebaseUser = firebaseAuth.currentUser
         if (firebaseUser != null){
-            startActivity(Intent(this,MainActivity::class.java))
+            startActivity(Intent(this,HomeActivity::class.java))
             finish()
         }
     }
