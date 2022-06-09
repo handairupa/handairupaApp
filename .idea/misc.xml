@@ -3,9 +3,9 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/GitHub/Kotlin Projects/handairupaApp/app/src/main/res/drawable/ic_background_capture_pressed.xml" value="0.1" />
-        <entry key="..\:/GitHub/Kotlin Projects/handairupaApp/app/src/main/res/drawable/ic_capture.xml" value="0.1" />
-        <entry key="..\:/GitHub/Kotlin Projects/handairupaApp/app/src/main/res/layout/activity_splash.xml" value="0.1" />
+        <entry key="..\:/Users/Raissa/AndroidStudioProjects/handairupaApp/app/src/main/res/layout/activity_login.xml" value="0.1" />
+        <entry key="..\:/Users/Raissa/AndroidStudioProjects/handairupaApp/app/src/main/res/layout/activity_main.xml" value="0.16944444444444445" />
+        <entry key="..\:/Users/Raissa/AndroidStudioProjects/handairupaApp/app/src/main/res/layout/activity_splash_screen.xml" value="0.20416666666666666" />
       </map>
     </option>
   </component>
