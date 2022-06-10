@@ -7,6 +7,7 @@ import android.os.Handler
 import android.os.Looper
 import androidx.appcompat.app.AppCompatActivity
 import com.example.handairupaapp.ui.account.LoginActivity
+import com.example.handairupaapp.ui.onboarding.OnboardingActivity
 
 @SuppressLint("CustomSplashScreen")
 class SplashScreen : AppCompatActivity() {
@@ -19,7 +20,7 @@ class SplashScreen : AppCompatActivity() {
         handler = Handler(Looper.getMainLooper())
 
         handler.postDelayed({
-            val intent = Intent(this, LoginActivity::class.java)
+            val intent = Intent(this, OnboardingActivity::class.java)
             startActivity(intent)
             finish()
         }, 3000)
