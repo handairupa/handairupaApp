@@ -32,4 +32,10 @@
     <string name="camera">Camera</string>
     <string name="no_content">No Content</string>
     <string name="empty_journal">You haven\'t scan your skin yet.</string>
+    <string name="sign_in">SIGN IN</string>
+    <string name="doesn_t_have_gambart_account_tap_me">Doesn’t have GAMBART account? Tap me!</string>
+    <string name="by_handairupa">by handairupa</string>
+    <string name="masalah_kulit">Masalah Kulit</string>
+    <string name="lorem_ipsum_dolor_sit_amet_consectetur_adipiscing_elit_sed_do_eiusmod_tempor_incididunt_ut_labore_et_dolore_magna_aliqua">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</string>
+    <string name="rekomendasi_produk">Rekomendasi Produk</string>
 </resources>

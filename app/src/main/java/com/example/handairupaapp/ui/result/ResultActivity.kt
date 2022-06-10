@@ -1,7 +1,7 @@
 package com.example.handairupaapp.ui.result
 
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import androidx.appcompat.app.AppCompatActivity
 import com.example.handairupaapp.R
 import com.example.handairupaapp.databinding.ActivityResultBinding
 

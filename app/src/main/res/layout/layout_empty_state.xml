@@ -12,22 +12,22 @@
         android:paddingBottom="80dp"
         android:orientation="vertical">
 
-        <ImageView
-            android:id="@+id/profileEmptyStateImage"
-            android:layout_width="170dp"
-            android:layout_height="170dp"
-            android:adjustViewBounds="true"
-            android:contentDescription="@string/no_content"
-            android:scaleType="fitXY"
-            android:src="@{icon}"
-            tools:src="@drawable/ic_menu_gallery"/>
+<!--        <ImageView-->
+<!--            android:id="@+id/profileEmptyStateImage"-->
+<!--            android:layout_width="170dp"-->
+<!--            android:layout_height="170dp"-->
+<!--            android:adjustViewBounds="true"-->
+<!--            android:contentDescription="@string/no_content"-->
+<!--            android:scaleType="fitXY"-->
+<!--            android:src="@{icon}"-->
+<!--            tools:src="@drawable/ic_menu_gallery"/>-->
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textSize="18sp"
-            android:text="@{message}"
-            tools:text="@string/empty_journal"/>
+<!--        <TextView-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:textSize="18sp"-->
+<!--            android:text="@{message}"-->
+<!--            tools:text="@string/empty_journal"/>-->
 
     </LinearLayout>
 
