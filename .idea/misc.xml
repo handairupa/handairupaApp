@@ -3,6 +3,11 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/GitHub/Kotlin Projects/handairupa-branch-ra/app/src/main/res/drawable/bg_button_disable.xml" value="0.159" />
+        <entry key="..\:/GitHub/Kotlin Projects/handairupa-branch-ra/app/src/main/res/drawable/ic_circle_full.xml" value="0.1" />
+        <entry key="..\:/GitHub/Kotlin Projects/handairupa-branch-ra/app/src/main/res/drawable/ic_circle_outline.xml" value="0.1" />
+        <entry key="..\:/GitHub/Kotlin Projects/handairupa-branch-ra/app/src/main/res/layout/activity_login.xml" value="0.1296875" />
+        <entry key="..\:/GitHub/Kotlin Projects/handairupa-branch-ra/app/src/main/res/layout/activity_onboarding.xml" value="0.1" />
         <entry key="..\:/Users/Raissa/AndroidStudioProjects/handairupaApp/app/src/main/res/layout/activity_camera.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/Raissa/AndroidStudioProjects/handairupaApp/app/src/main/res/layout/activity_login.xml" value="0.25" />
         <entry key="..\:/Users/Raissa/AndroidStudioProjects/handairupaApp/app/src/main/res/layout/activity_main.xml" value="0.16944444444444445" />

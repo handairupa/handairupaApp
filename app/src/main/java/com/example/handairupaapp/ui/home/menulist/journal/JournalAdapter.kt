@@ -30,12 +30,13 @@ class JournalAdapter(private val listUser: ArrayList<SkinConditionModel>) : Recy
 
     override fun onBindViewHolder(holder: ListViewHolder, position: Int) {
         val data = listUser[position]
-        holder.apply {
+        // TODO: BUAT HOLDER
+        /*holder.apply {
             imgItemAvatar.setImageResource(data.skin_condition_image)
             itemView.setOnClickListener {
                 onItemClickCallback.onItemClicked(listUser[holder.adapterPosition])
             }
-        }
+        }*/
     }
 
     override fun getItemCount(): Int = listUser.size
