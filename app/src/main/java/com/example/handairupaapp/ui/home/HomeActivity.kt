@@ -59,8 +59,6 @@ class HomeActivity : AppCompatActivity() {
         }
 
         setSupportActionBar(binding.appBarHome.toolbar)
-        binding.appBarHome.toolbar.setCollapseIcon(R.drawable.ic_menu)
-        binding.appBarHome.toolbar.setTitleTextColor(R.color.black)
 
         val drawerLayout: DrawerLayout = binding.drawerLayout
         val navView: NavigationView = binding.navView
@@ -68,7 +66,7 @@ class HomeActivity : AppCompatActivity() {
 
         appBarConfiguration = AppBarConfiguration(
             setOf(
-                R.id.nav_home, R.id.nav_gallery
+                R.id.nav_home, R.id.nav_journal
             ), drawerLayout
         )
         setupActionBarWithNavController(navController, appBarConfiguration)
