@@ -1,44 +1,51 @@
 package com.example.handairupaapp.ui.home.menulist.journal
 
 import android.view.LayoutInflater
-import android.view.View
 import android.view.ViewGroup
-import android.widget.ImageView
 import androidx.recyclerview.widget.RecyclerView
-import com.example.handairupaapp.R
+import com.bumptech.glide.Glide
+import com.bumptech.glide.request.RequestOptions
+import com.example.handairupaapp.databinding.CardSkinConditionBinding
 import com.example.handairupaapp.model.SkinConditionModel
 
-class JournalAdapter(private val listUser: ArrayList<SkinConditionModel>) : RecyclerView.Adapter<JournalAdapter.ListViewHolder>() {
+class JournalAdapter(private val listJournal: ArrayList<SkinConditionModel>) : RecyclerView.Adapter<JournalAdapter.JournalViewHolder>() {
     private lateinit var onItemClickCallback: OnItemClickCallback
 
-    inner class ListViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
-        var imgItemAvatar: ImageView = itemView.findViewById(R.id.skin_condition_img)
+    inner class JournalViewHolder(private val binding: CardSkinConditionBinding) : RecyclerView.ViewHolder(binding.root) {
+        fun bind(journal: SkinConditionModel){
+            with(binding){
+                Glide.with(itemView.context)
+                    .load(journal.skin_condition_image)
+                    .apply(RequestOptions().override(100, 100))
+                    .into(ivSkinCondition)
+
+                tvName.text = journal.skin_condition_name
+            }
+        }
     }
+
+    override fun onCreateViewHolder(parent: ViewGroup, position: Int): JournalViewHolder {
+        val binding = CardSkinConditionBinding.inflate(LayoutInflater.from(parent.context), parent, false)
+        return JournalViewHolder(binding)
+    }
+
+    override fun onBindViewHolder(holder: JournalViewHolder, position: Int) {
+        holder.apply {
+            bind(listJournal[position])
+            itemView.setOnClickListener{
+                onItemClickCallback.onItemClicked(listJournal[holder.adapterPosition])
+            }
+        }
+    }
+
+    override fun getItemCount(): Int = listJournal.size
 
     fun setOnItemClickCallback(onItemClickCallback: OnItemClickCallback) {
         this.onItemClickCallback = onItemClickCallback
     }
 
     interface OnItemClickCallback {
-        fun onItemClicked(data: SkinConditionModel)
+        fun onItemClicked(journal: SkinConditionModel)
     }
-
-    override fun onCreateViewHolder(parent: ViewGroup, position: Int): ListViewHolder {
-        val view: View = LayoutInflater.from(parent.context).inflate(R.layout.item_skin_condition, parent, false)
-        return ListViewHolder(view)
-    }
-
-    override fun onBindViewHolder(holder: ListViewHolder, position: Int) {
-        val data = listUser[position]
-        // TODO: BUAT HOLDER
-        /*holder.apply {
-            imgItemAvatar.setImageResource(data.skin_condition_image)
-            itemView.setOnClickListener {
-                onItemClickCallback.onItemClicked(listUser[holder.adapterPosition])
-            }
-        }*/
-    }
-
-    override fun getItemCount(): Int = listUser.size
 
 }

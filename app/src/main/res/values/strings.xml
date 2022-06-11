@@ -43,5 +43,27 @@
     <string name="title_menu_1">Identify the cause of your facial skin problems.</string>
     <string name="title_menu_2">Track changes in your facial skin condition.</string>
     <string name="title_menu_3">Get skincare product recommendations.</string>
+    <string name="user_name">User name</string>
+
+
+    <string-array name="user_name_ph">
+        <item>Nama</item>
+        <item>Saya</item>
+        <item>Wawa</item>
+        <item>Mama</item>
+        <item>Nana</item>
+        <item>Nata</item>
+        <item>Caca</item>
+    </string-array>
+
+    <string-array name="user_journey_ph">
+        <item>@drawable/user_journal_1</item>
+        <item>@drawable/user_journal_2</item>
+        <item>@drawable/user_journal_3</item>
+        <item>@drawable/user_journal_4</item>
+        <item>@drawable/user_journal_5</item>
+        <item>@drawable/user_journal_6</item>
+        <item>@drawable/user_journal_7</item>
+    </string-array>
 
 </resources>
