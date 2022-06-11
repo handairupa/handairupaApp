@@ -8,7 +8,7 @@
 - [x] <b>Login Page</b>
 - [x] <b>Home & Scan Your Skin</b>
 - [ ] <b>Camera & Result</b>
-- [x] <b>Skin Journal</b>
+- [ ] <b>Skin Journal</b>
 
 ### Tools used
 #### Design: 
