@@ -55,8 +55,6 @@ class JournalFragment : Fragment() {
         return listJournal
     }
 
-
-
     private fun showCardSkinCondition() {
         val journalAdapter = JournalAdapter(list)
 

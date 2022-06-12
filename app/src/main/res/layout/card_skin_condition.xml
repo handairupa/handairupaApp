@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/apk/res-auto"
-    android:layout_width="150dp"
-    android:layout_height="150dp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
     android:id="@+id/card_skin_condition">
 
     <androidx.cardview.widget.CardView
@@ -19,8 +19,8 @@
 
             <ImageView
                 android:id="@+id/iv_skin_condition"
-                android:layout_width="139dp"
-                android:layout_height="110dp"
+                android:layout_width="120dp"
+                android:layout_height="100dp"
                 android:contentDescription="@string/skin_condition"
                 android:scaleType="fitCenter"
                 android:src="@drawable/image_placeholder"
@@ -35,7 +35,7 @@
             <TextView
                 android:id="@+id/tv_name"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="20dp"
                 android:gravity="center"
                 tools:layout_constraintBaseline_toBottomOf="parent"
                 tools:layout_constraintBottom_toBottomOf="parent"

@@ -86,7 +86,6 @@ class CameraActivity : AppCompatActivity(){
                     startActivity(Intent(this@CameraActivity,ResultActivity::class.java))
                     finish()
                 }
-
             }
         )
         return moveResultActivity()

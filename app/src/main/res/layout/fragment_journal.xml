@@ -13,7 +13,6 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="32dp"
         android:layout_marginEnd="32dp"
-        android:alpha="0"
         android:text="@string/hello_text"
         android:textColor="@color/black"
         android:textSize="20sp"
@@ -25,18 +24,18 @@
         app:layout_constraintVertical_bias="0.373" />
 
     <TextView
-        android:id="@+id/nameTextView"
+        android:id="@+id/tv_name"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="32dp"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="0dp"
         android:layout_marginEnd="32dp"
-        android:alpha="0"
         android:lines="1"
         android:maxLines="1"
-        android:text=""
+        android:text="@string/name_sample"
         android:textColor="@color/black"
-        android:textSize="34sp"
+        android:textStyle="bold"
+        android:textSize="24sp"
         app:layout_constraintBottom_toTopOf="@+id/guidelineHorizontal"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
@@ -76,6 +75,6 @@
         app:layout_constraintTop_toTopOf="@+id/guidelineHorizontal"
         app:layout_constraintVertical_bias="0.030"
         app:spanCount="3"
-        tools:itemCount="15"
+        tools:itemCount="12"
         tools:listitem="@layout/card_skin_condition" />
 </androidx.constraintlayout.widget.ConstraintLayout>
