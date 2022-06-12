@@ -3,8 +3,8 @@
     <string name="title_activity_home">HomeActivity</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
-    <string name="nav_header_title">Android Studio</string>
-    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_title">HANDAIRUPA</string>
+    <string name="nav_header_subtitle">handairupa@gmail.com</string>
     <string name="nav_header_desc">Navigation header</string>
     <string name="action_settings">Settings</string>
 
@@ -14,38 +14,38 @@
 
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="capture_button_alt">Capture Button</string>
-    <string name="capture_prompt">Find out your facial skin\'s current condition.</string>
-    <string name="capture_now">Capture now!</string>
-    <string name="hello_text">"Hello\,"</string>
+    <string name="capture_prompt">Cari tahu seperti apa kondisi kulit wajahmu hari ini.</string>
+    <string name="capture_now">Ambil foto\</string>
+    <string name="upload_now">Cek sekarang\!</string>
+    <string name="hello_text">"Halo\,"</string>
     <string name="denied_permission">Handairupa belum mendapatkan izin akses kamera.</string>
-    <string name="product_name">Product Name</string>
-    <string name="product_description">Product Description</string>
-    <string name="failed_camera">Showing camera failed</string>
-    <string name="failed_capture_image">Capture image failed.</string>
-    <string name="img_result">Result image</string>
-    <string name="skin_condition">Skin Condition Name</string>
-    <string name="skin_condition_desc">Description of Skin Condition</string>
-    <string name="switch_camera">Switch Camera</string>
-    <string name="menu_result">Result</string>
+    <string name="product_name">Nama Produk</string>
+    <string name="product_description">Deskripsi Produk</string>
+    <string name="failed_camera">Gagal menampilkan kamera.</string>
+    <string name="failed_capture_image">Gagal memoret.</string>
+    <string name="img_result">Hasil foto</string>
+    <string name="skin_condition">Nama kondisi kulit</string>
+    <string name="skin_condition_desc">Deskripsi kondisi kulit</string>
+    <string name="switch_camera">Putar kamera</string>
+    <string name="menu_result">Hasil</string>
     <string name="failed_take_image">Gagal mengambil gambar.</string>
-    <string name="menu_journal">Skin Journal</string>
-    <string name="camera">Camera</string>
+    <string name="menu_journal">Jurnal Rupa</string>
+    <string name="camera">Kamera</string>
     <string name="no_content">No Content</string>
-    <string name="empty_journal">You haven\'t scan your skin yet.</string>
-    <string name="sign_in">SIGN IN</string>
-    <string name="doesn_t_have_gambart_account_tap_me">Doesn’t have GAMBART account? Tap me!</string>
-    <string name="by_handairupa">by handairupa</string>
+    <string name="empty_journal">Kamu belum memeriksa kulit wajahmu</string>
+    <string name="sign_in">Akses aplikasi dengan Google</string>
+    <string name="by_handairupa">handairupa dev.</string>
     <string name="masalah_kulit">Masalah Kulit</string>
-    <string name="lorem_ipsum_dolor_sit_amet_consectetur_adipiscing_elit_sed_do_eiusmod_tempor_incididunt_ut_labore_et_dolore_magna_aliqua">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</string>
+    <string name="lorem_ipsum">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</string>
     <string name="rekomendasi_produk">Rekomendasi Produk</string>
-    <string name="skin_image">Skin Image</string>
-    <string name="join_now">Join now!</string>
-    <string name="title_menu_1">Identify the cause of your facial skin problems.</string>
-    <string name="title_menu_2">Track changes in your facial skin condition.</string>
-    <string name="title_menu_3">Get skincare product recommendations.</string>
-    <string name="user_name">User name</string>
-    <string name="product_instruction">How to use</string>
-    <string name="buy_product">buy</string>
+    <string name="skin_image">Foto Kulit</string>
+    <string name="join_now">Gabung sekarang!</string>
+    <string name="title_menu_1">Identifikasi masalah yang ada pada kulit wajah.</string>
+    <string name="title_menu_2">Pantau perbedaan kondisi kulit wajahmu.</string>
+    <string name="title_menu_3">Dapatkan rekomendasi produk perawatan kulit.</string>
+    <string name="user_name">Nama pengguna</string>
+    <string name="product_instruction">Cara pakai</string>
+    <string name="buy_product">Beli</string>
     <string name="name_sample">Rahma.</string>
 
     <string-array name="user_name_ph">
@@ -66,6 +66,56 @@
         <item>@drawable/user_journal_5</item>
         <item>@drawable/user_journal_6</item>
         <item>@drawable/user_journal_7</item>
+    </string-array>
+
+    <string-array name="product_name_ph">
+        <item>Nama</item>
+        <item>Saya</item>
+        <item>Wawa</item>
+        <item>Mama</item>
+        <item>Nana</item>
+        <item>Nata</item>
+        <item>Caca</item>
+    </string-array>
+
+    <string-array name="product_image_ph">
+        <item>@drawable/user_journal_1</item>
+        <item>@drawable/user_journal_2</item>
+        <item>@drawable/user_journal_3</item>
+        <item>@drawable/user_journal_4</item>
+        <item>@drawable/user_journal_5</item>
+        <item>@drawable/user_journal_6</item>
+        <item>@drawable/user_journal_7</item>
+    </string-array>
+
+    <string-array name="product_description_ph">
+        <item>Right Out of the Gate</item>
+        <item>Head Over Heels</item>
+        <item>Swinging For the Fences</item>
+        <item>Beating Around the Bush</item>
+        <item>In a Pickle</item>
+        <item>Man of Few Words</item>
+        <item>My Cup of Tea</item>
+    </string-array>
+
+    <string-array name="product_instruction_ph">
+        <item>They desperately needed another drummer since the current one only knew how to play bongos\.</item>
+        <item>Thigh-high in the water\, the fisherman\'s hope for dinner soon turned to despair\.</item>
+        <item>As he entered the church he could hear the soft voice of someone whispering into a cell phone\.</item>
+        <item>On a scale from one to ten\, what\'s your favorite flavor of random grammar\?</item>
+        <item>She had some amazing news to share but nobody to share it with\.</item>
+        <item>She couldn\'t understand why nobody else could see that the sky is full of cotton candy\.</item>
+        <item>Today I bought a raincoat and wore it on a sunny day\.</item>
+    </string-array>
+
+    <string-array name="product_link_ph">
+        <item>https://shopee.co.id</item>
+        <item>https://shopee.co.id</item>
+        <item>https://shopee.co.id</item>
+        <item>https://shopee.co.id</item>
+        <item>https://shopee.co.id</item>
+        <item>https://shopee.co.id</item>
+        <item>https://shopee.co.id</item>
     </string-array>
 
 </resources>
