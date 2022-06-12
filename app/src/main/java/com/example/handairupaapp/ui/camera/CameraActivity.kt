@@ -15,8 +15,7 @@ import androidx.camera.lifecycle.ProcessCameraProvider
 import androidx.core.content.ContextCompat
 import com.example.handairupaapp.R
 import com.example.handairupaapp.databinding.ActivityCameraBinding
-import com.example.handairupaapp.ui.home.HomeActivity
-import com.example.handairupaapp.ui.result.ResultActivity
+import com.example.handairupaapp.ui.home.menulist.home.HomeFragment.Companion.CAMERA_X_RESULT
 import com.example.handairupaapp.utils.createFile
 import java.io.File
 import java.util.concurrent.ExecutorService
@@ -82,57 +81,12 @@ class CameraActivity : AppCompatActivity(){
                         "isBackCamera",
                         cameraSelector == CameraSelector.DEFAULT_BACK_CAMERA
                     )
-                    setResult(ResultActivity.CAMERA_X_RESULT, intent)
-                    startActivity(Intent(this@CameraActivity,ResultActivity::class.java))
+                    setResult(CAMERA_X_RESULT, intent)
                     finish()
                 }
             }
         )
-        return moveResultActivity()
     }
-
-    private fun moveResultActivity(){
-        val moveToResultActivity = Intent(this@CameraActivity, ResultActivity::class.java)
-        startActivity(moveToResultActivity)
-    }
-
-    // INI BUAT UPLOAD IMAGE KE API
-/*    private fun uploadImage() {
-        if (getFile != null) {
-            val file = reduceFileImage(getFile as File)
-
-            val description = "Ini adalah deksripsi gambar".toRequestBody("text/plain".toMediaType())
-            val requestImageFile = file.asRequestBody("image/jpeg".toMediaTypeOrNull())
-            val imageMultipart: MultipartBody.Part = MultipartBody.Part.createFormData(
-                "photo",
-                file.name,
-                requestImageFile
-            )
-
-            val service = ApiConfig().getApiService().uploadImage(imageMultipart, description)
-
-            service.enqueue(object : Callback<FileUploadResponse> {
-                override fun onResponse(
-                    call: Call<FileUploadResponse>,
-                    response: Response<FileUploadResponse>
-                ) {
-                    if (response.isSuccessful) {
-                        val responseBody = response.body()
-                        if (responseBody != null && !responseBody.error) {
-                            Toast.makeText(this@CameraActivity, responseBody.message, Toast.LENGTH_SHORT).show()
-                        }
-                    } else {
-                        Toast.makeText(this@CameraActivity, response.message(), Toast.LENGTH_SHORT).show()
-                    }
-                }
-                override fun onFailure(call: Call<FileUploadResponse>, t: Throwable) {
-                    Toast.makeText(this@CameraActivity, "Gagal instance Retrofit", Toast.LENGTH_SHORT).show()
-                }
-            })
-        } else {
-            Toast.makeText(this@CameraActivity, "Silakan masukkan berkas gambar terlebih dahulu.", Toast.LENGTH_SHORT).show()
-        }
-    }*/
 
     private fun startCamera() {
         val cameraProviderFuture = ProcessCameraProvider.getInstance(this)
